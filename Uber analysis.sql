@@ -1,0 +1,4 @@
+SELECT * FROM Trip
+WHERE `Trip Duration` IS NOT NULL
+ORDER BY `Trip Duration` DESC
+LIMIT 5;
